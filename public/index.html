@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Camilo Restrepo Rosas</title>
+</head>
+
+<body>
+
+    <header
+        class="main_header text-center sm:justify-between sm:font-medium sm:fixed sm:items-center sm:bg-white sm:w-full sm:flex">
+        <div>
+            <!-- <div>imagen mia</div> -->
+            <a class="header__logo-sub sm:visible font-bold uppercase transition duration-500 ease-in-out hover:text-blue-500 "
+                href="#">Camilo Restrepo Rosas</a>
+        </div>
+        <nav>
+            <ul class="main_ul hidden sm:flex font-bold mb-0 uppercase list-none">
+                <li><a class="transition-colors duration-300 ease-in-out hover:text-blue-700" href="#home">home</a></li>
+                <li><a class="transition-colors  duration-300 ease-in-out hover:text-blue-700" href="#about">about</a>
+                </li>
+                <li><a class="transition-colors duration-300 ease-in-out hover:text-blue-700"
+                        href="#projects">projects</a></li>
+                <li><a class="transition-colors duration-300 ease-in-out hover:text-blue-700"
+                        href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="home_section text-center relative m-0 p-0 h-screen bg-center text-black bg-gray-100">
+
+            <div class="home-socials justify-center flex sm:flex sm:justify-start sm:py-6 sm:px-20">
+                <div class="">
+                    <a class="home__social-icon-link" target="_blank" href="https://github.com/CamiloRestrepo5">
+                        <img class="home__social-icon hover:bg-slate-300" src="../assets/github.png" alt="">
+                </div>
+                </a>
+                <div>
+                    <a class="home__social-icon-link" target="_blank"
+                        href="https://www.linkedin.com/in/camilo-restrepo-/">
+                        <img class="home__social-icon hover:bg-slate-300" src="../assets//logotipo-de-linkedin.png"
+                            alt="">
+                </div>
+                </a>
+                <div>
+                    <a class="home__social-icon-link" target="_blank"
+                        href="https://www.instagram.com/camilo_restrepo_5/">
+                        <img class="home__social-icon hover:bg-slate-300" src="../assets/instagram.png" alt="">
+                </div>
+                </a>
+            </div>
+
+            <div class="home_section_content absolute">
+
+                <h1 class="home_heading_primary text-center uppercase font-extrabold">hey, i'm camilo restrepo</h1>
+
+                <div class="home_info max-w-7xl">
+                    <p class="text_primary text center w-full">A Result-Oriented Web Developer building and managing
+                        Websites
+                        and Web Applications that leads to the
+                        success of the overall product</p>
+                </div>
+
+                <div class="home_btn mt-14">
+                    <a href="#projects" class="btn_projects font-bold uppercase text-white rounded-md py-6 px-32 shadow-xl
+                     bg-blue-700 inline-block text-4xl transition-transform 
+                     transform hover:-translate-y-1">Projects</a>
+
+                </div>
+
+            </div>
+
+            <div class="home_mouse_scroll absolute left-2/4">
+
+                <div class="mouse relative overflow-hidden w-11 h-16 "></div>
+
+            </div>
+
+        </section>
+
+        <section id="about" class="about_section bg-white mb-24">
+
+            <div class="about_container m-auto">
+                <h2 class="text-center pt-48 sm:pt-5 text-6xl uppercase font-bold mb-16 tracking-widest">about me</h2>
+
+                <div class="about_info">
+                    <p class="text_about_secondary text-3xl
+                     text-center w-full max-w-7xl m-auto block leading-normal mb-9 font-medium">Here you will
+                        find more information about me, what I do,
+                        and my current skills mostly in terms of programming and technology</p>
+                </div>
+            </div>
+
+            <article class="about_content grid mt-16 gap-40">
+                <article class="about_content_main pl-48">
+                    <h3 class="about_content_title mt-9 mb-12 font-bold">Get to know me</h3>
+                    <div>
+                        <p class="about_content_para mb-4">I'm a <strong>Frontend Focused Web Developer</strong>
+                            building
+                            and managing the Front-end of Websites and Web Applications that
+                            leads to the success of the overall product. Check out some of
+                            my work in the <strong>Projects</strong> section.</p>
+                        <p class="about_content_para mb-4">
+                            I also like sharing content related to the stuff that I have
+                            learned over the years in <strong>Web Development</strong> so it
+                            can help other people of the Dev Community. Feel free to Connect
+                            or Follow me on my
+                            <a rel="noreferrer" href="https://www.linkedin.com/in/camilo-restrepo-/"
+                                target="_blank">LinkedIn</a>
+                            and
+                            <a rel="noreferrer" href="#" target="_blank">Instagram</a>
+                            where I post useful content related to Web Development and
+                            Programming
+                        </p>
+                        <p class="about_content_para mb-4">
+                            I'm open to <strong>Job</strong> opportunities where I can
+                            contribute, learn and grow. If you have a good opportunity that
+                            matches my skills and experience then don't hesitate to
+                            <strong>contact</strong> me.
+                        </p>
+                    </div>
+
+                    <div class="home_btn mt-16">
+                        <a href="https://www.linkedin.com/in/camilo-restrepo-/" target="_blank" class="btn_contact font-bold uppercase text-white rounded-md
+                         bg-blue-700 inline-block text-2xl transition-transform shadow-xl
+                         transform hover:-translate-y-1 tracking-widest ">Contact</a>
+
+                    </div>
+
+                </article>
+
+                <article class="about_content_skills">
+                    <h3 class="about_content_title mt-9 mb-12 font-bold">My skills</h3>
+                    <ul class="skills flex flex-wrap gap-2 pr-28">
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">JavaScript</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">HTML</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">CSS</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">Tailwind</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">Bootstrap</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">WordPress</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">PHP</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">Github</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">Responsive
+                                Design</a>
+                        </li>
+                        <li class="skills_skill">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">SEO</a>
+                        </li>
+                        <li class="skills_skill ">
+                            <a href="#" rel="noopener noreferrer" class="pointer-events-none">Web Design</a>
+                        </li>
+
+                    </ul>
+                </article>
+
+            </article>
+
+        </section>
+
+        <section id="projects" class="projects_section  pb-4 bg-center relative">
+
+            <div class="projects_content w-full m-auto">
+
+                <article class="projects_container">
+                    <h2 class="text-center pt-24 text-6xl uppercase font-bold mb-16 tracking-widest ">Projects</h2>
+
+                    <div class="projects_info">
+                        <p class="text_projects_secondary text-3xl
+                     text-center w-full max-w-7xl m-auto block leading-normal mb-32 font-medium">Here you will find
+                            some of the personal and clients projects that I created
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="projects_row">
+                    <div class="projects_img">
+                        <img src="/public/assets/Blackjack.jpg" class="proyects_img_content" loading="lazy" alt="Projects one">
+                    </div>
+                    <div>
+                        <h3 class="projects_content_title">21 BlackJack</h3>
+                        <p class="projects_para">Aenean non arcu porttitor, aliquam tortor sed, tincidunt mauris. Nullam
+                            elementum tincidunt
+                            orci, sit amet pellentesque justo tincidunt sed. Curabitur id mi ac odio eleifend luctus.
+                        </p>
+                        <a href="#" class="btn_contact font-bold text-white rounded-md
+                         bg-blue-700 inline-block text-2xl transition-transform shadow-xl
+                         transform hover:-translate-y-1 tracking-widest">link</a>
+                    </div>
+
+                </article>
+                <article class="projects_row">
+                    <div class="projects_img">
+                        <img src="/public/assets/coco-website.jpg" class="proyects_img_content" loading="lazy"
+                            alt="CalCure img">
+                    </div>
+                    <div>
+                        <h3 class="projects_content_title">Coco Tech Website</h3>
+                        <p class="projects_para">mauris eu, aliquam mauris. Donec mollis, ipsum ac auctor dictum, metus
+                            quam suscipit est, at
+                            viverra leo diam ut tortor. In massa lorem, tempor nec iaculis ornare, facilisis vel odio.
+                            Suspendisse nec vulputate lacus. Integer pharetra sollicitudin metus sit amet pulvinar.</p>
+                        <a href="https://cocotech.ai/" target="_blank" class="btn_contact font-bold text-white rounded-md
+                         bg-blue-700 inline-block text-2xl transition-transform shadow-xl
+                         transform hover:-translate-y-1 tracking-widest">link</a>
+                    </div>
+                </article>
+                <article class="projects_row">
+                    <div class="projects_img">
+                        <img src="/public/assets/Gigbee.webp" class="proyects_img_content" loading="lazy" alt="Website Design">
+                    </div>
+                    <div>
+                        <h3 class="projects_content_title">GigBee</h3>
+                        <p class="projects_para">vel hendrerit ante iaculis et. Integer imperdiet ante ac euismod
+                            lacinia. Duis elementum
+                            sodales
+                            fringilla. Nulla vehicula finibus ante sed blandit. Aliquam elit nulla, luctus eu pretium
+                            sed,
+                            feugiat vel turpis. Curabitur ut arcu turpis. Pellentesque ut mauris euismod, molestie</p>
+                        <a href="https://gigbee.com.co/" target="_blank" class="btn_contact font-bold text-white rounded-md
+                         bg-blue-700 inline-block text-2xl transition-transform shadow-xl
+                         transform hover:-translate-y-1 tracking-widest">link</a>
+                    </div>
+                </article>
+                <article class="projects_row">
+                    <div class="projects_img">
+                        <img src="/public/assets/verdugo.jpg" class="proyects_img_content" loading="lazy" alt="Jewelry img">
+                    </div>
+                    <div>
+                        <h3 class="projects_content_title">Verdugo</h3>
+                        <p class="projects_para ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                            eu fermentum lectus.
+                            Donec
+                            eget suscipit tortor. Sed mattis eleifend urna sit amet commodo. Phasellus tristique, enim
+                            vitae
+                            hendrerit convallis, nulla dui suscipit elit, ac accumsan lectus odio et quam. Morbi et
+                            ligula
+                            tellus. Sed sollicitudin lectus erat</p>
+                        <a href="#" class="btn_contact font-bold text-white rounded-md
+                         bg-blue-700 inline-block text-2xl transition-transform shadow-xl
+                         transform hover:-translate-y-1 tracking-widest">link</a>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact_section bg-cover bg-center pb-48">
+            <article class="contact_content_main">
+                <h2 class="title_contact text-center pt-48 text-6xl uppercase font-bold mb-16 tracking-widest">Contact
+                </h2>
+                <div>
+                    <p class="contact_para font-medium text-center m-auto mb-36 max-w-7xl">Feel free to Contact me by
+                        submitting the form below and I will
+                        get back to you as soon as possible</p>
+                </div>
+
+                <div class="contact_form_container text-right max-w-7xl p-16">
+                    <form action="#" class="contact__form" method="post"><input type="hidden" name="form-name"
+                            value="form 1">
+                        <div class="contact_form_field m-16">
+                            <label class="contact_form_label" for="name">Name</label>
+                            <input required="" placeholder="Enter Your Name" type="text" class="contact_form_input"
+                                name="name" id="name">
+                        </div>
+                        <div class="contact_form_field m-16">
+                            <label class="contact_form_label" for="email">Email</label>
+                            <input required="" placeholder="Enter Your Email" type="email" class="contact_form_input"
+                                name="email" id="email">
+                        </div>
+                        <div class="contact_form_field m-16">
+                            <label class="contact_form_label" for="message">Message</label>
+                            <textarea required="" cols="30" rows="10" class="contact_form_input"
+                                placeholder="Enter Your Message" name="message" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="font-bold text-white rounded-md py-4 px-20 shadow-xl
+                        bg-blue-700 inline-block text-2xl transition-transform uppercase
+                        transform hover:-translate-y-1 text-center">
+                            Submit
+                        </button>
+                    </form>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="main_footer">
+        <div class="footer_container">
+            <div class="main_footer_upper flex justify-between py-32">
+                <div class="main_footer_social order-2">
+                    <h4 class="footer_title uppercase text-center font-bold">Social</h4>
+                    <div class="main_footer_social_content mt-8">
+                        <a href="https://github.com/CamiloRestrepo5" target="_blank">
+                            <img class="prueba" src="/public/assets/github-white.png" alt="Github">
+                        </a>
+                        <a href="https://www.instagram.com/camilo_restrepo_5/" target="_blank">
+                            <img class="prueba" src="/public/assets/instagram-original.png" alt="Instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/camilo-restrepo-/" target="_blank">
+                            <img class="prueba" src="/public/assets/linkedin-blue.png" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_information order-1 w-2/5 max-w-3xl">
+                    <h4 class="footer_title uppercase font-bold">Camilo Restrepo</h4>
+                    <p class="footer_para">
+                        A Frontend delveloper focused Web Developer building the Frontend of Websites and Web
+                        Applications that
+                        leads to the success of the overall product
+                    </p>
+                </div>
+            </div>
+            <div class="main_footer_lower">
+                © Copyright
+                <script src="/public/main.js"></script>
+                . Made by
+                <a class="prueba_dos underline font-bold ml-0.5" rel="noreferrer" target="_blank" href="#">Camilo
+                    Restrepo</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/index.js"></script>
+</body>
+
+</html>

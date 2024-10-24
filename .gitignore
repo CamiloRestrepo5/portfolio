@@ -1,0 +1,9 @@
+public/assets/
+node_modules/
+npm-debug.log
+.vscode/
+Thumbs.db
+.env
+.gitattributes
+package.json
+package-lock.json
